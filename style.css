@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.box{
+    border: white solid 2px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
